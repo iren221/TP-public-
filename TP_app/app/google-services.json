@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "504580440081",
+    "project_id": "tpproject-72ac9",
+    "storage_bucket": "tpproject-72ac9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504580440081:android:8af55a67ae85ea2869f1b0",
+        "android_client_info": {
+          "package_name": "com.fel.tp_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504580440081-l56pu1ukqtthi7rbvqbesam0qga69fbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fel.tp_app",
+            "certificate_hash": "310bb700c281d952f9a42ce60e162dc254bff4d4"
+          }
+        },
+        {
+          "client_id": "504580440081-kv1mhb3sb07o4ei3ur6tc50g33pv9ofo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdyo6DIYUF77z2q0VPBEkC_kzwXUrkVf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504580440081-kv1mhb3sb07o4ei3ur6tc50g33pv9ofo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
