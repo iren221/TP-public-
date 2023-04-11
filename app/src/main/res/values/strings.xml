@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TP_app</string>
+    <string name="registration">Регистрация</string>
+    <string name="login">Войти</string>
+</resources>
