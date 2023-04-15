@@ -2,10 +2,10 @@
     <string name="app_name">TP_project</string>
     <string name="login">Вход</string>
     <string name="registration">Регистрация</string>
-    <string name="name">App</string>
+    <string name="name">Имя</string>
     <string name="email">Почта</string>
     <string name="password">Пароль</string>
 
     <string name="log_in">Войти</string>
-    <string name="name1">Имя</string>
+    <string name="name1">App</string>
 </resources>
