@@ -1,4 +1,4 @@
-package com.fel.tp_app;
+package com.example.tp_project;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.fel.tp_app", appContext.getPackageName());
+        assertEquals("com.example.tp_project", appContext.getPackageName());
     }
 }

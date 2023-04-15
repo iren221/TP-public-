@@ -1,4 +1,4 @@
-package com.fel.tp_app;
+package com.example.tp_project;
 
 import org.junit.Test;
 

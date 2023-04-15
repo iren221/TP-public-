@@ -7,17 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:504580440081:android:8af55a67ae85ea2869f1b0",
+        "mobilesdk_app_id": "1:504580440081:android:e384b62c771e8ec369f1b0",
         "android_client_info": {
-          "package_name": "com.fel.tp_app"
+          "package_name": "com.example.tp_project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "504580440081-l56pu1ukqtthi7rbvqbesam0qga69fbl.apps.googleusercontent.com",
+          "client_id": "504580440081-7dk4sj90jr7ep9m6kmsr6vtnjkvaijhc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.fel.tp_app",
+            "package_name": "com.example.tp_project",
             "certificate_hash": "310bb700c281d952f9a42ce60e162dc254bff4d4"
           }
         },

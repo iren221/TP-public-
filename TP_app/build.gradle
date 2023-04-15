@@ -1,12 +1,16 @@
+
 buildscript {
     repositories {
-        google()
-        mavenCentral()
+        // Make sure that you have the following two repositories
+        google()  // Google's Maven repository
+
+        mavenCentral()  // Maven Central repository
 
     }
     dependencies {
+        // Add the dependency for the Google services Gradle plugin
         classpath 'com.google.gms:google-services:4.3.15'
-        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.4'
+
     }
 }
 
@@ -14,6 +18,3 @@ plugins {
     id 'com.android.application' version '7.4.2' apply false
     id 'com.android.library' version '7.4.2' apply false
 }
-
-
-
