@@ -18,6 +18,9 @@ import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
     private TextInputLayout textInputEmail;
     private TextInputLayout textInputName;
     private TextInputLayout textInputPassword;
+
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+
+    DatabaseReference myRef = database.getReference("test");
+
+
 
 
     @Override
@@ -99,8 +108,22 @@ public class MainActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("login", "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Toast.makeText(MainActivity.this, "Authentication succesed.",
-                                    Toast.LENGTH_SHORT).show();
+
+                            myRef.child("users").child(user.getUid()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() { // функция считывающая данные из бд
+                                @Override
+                                public void onComplete(@NonNull Task<DataSnapshot> task) {
+                                    if (!task.isSuccessful()) {
+                                        Toast.makeText(MainActivity.this, "error",
+                                                Toast.LENGTH_SHORT).show();
+                                    }
+                                    else {
+
+                                        String s = task.getResult().child("name").getValue().toString(); //получаем имя пользователя из бд
+                                        Toast.makeText(MainActivity.this, "hello "+s,
+                                                Toast.LENGTH_SHORT).show();
+                                    }
+                                }
+                            });
 
                         } else {
                             // If sign in fails, display a message to the user.
@@ -133,7 +156,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(DialogInterface dialogInterface, int i) {
                 String email = textInputEmail.getEditText().getText().toString().trim();
                 String password = textInputPassword.getEditText().getText().toString().trim();
-                addUser(email, password);
+                String name = textInputName.getEditText().getText().toString().trim();
+                addUser(email, password, name);
             }
         })
 
@@ -147,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
         alert.show();
     }
 
-    private void addUser(String email, String password) {
+    private void addUser(String email, String password, String name) {
 
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -159,6 +183,8 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "Registration succesed.",
                                     Toast.LENGTH_SHORT).show();
                             FirebaseUser user = mAuth.getCurrentUser();
+                            myRef.child("users").child(user.getUid()).child("name").setValue(name); // добавляем в бд имя пользователя
+
 
                             //updateUI(user);
                         } else {
