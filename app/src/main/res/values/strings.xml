@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TP_project</string>
+    <string name="login">Вход</string>
+    <string name="registration">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="download_photo">Загрузить фото</string>
+    <string name="name_pet">Введите кличку</string>
+    <string name="age">Введите возраст</string>
+    <string name="weight">Введите рост</string>
+    <string name="OK">OK</string>
+    <string name="log_in">Войти</string>
+    <string name="name1">App</string>
+</resources>
