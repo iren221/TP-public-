@@ -45,6 +45,7 @@
         android:paddingBottom="40sp"
         android:text="@string/name"
         android:textAlignment="center"
+        android:textSize="48sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/white"
         app:layout_constraintTop_toTopOf="parent"

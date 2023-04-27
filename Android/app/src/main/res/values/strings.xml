@@ -3,4 +3,12 @@
     <string name="log_in">Войти</string>
     <string name="registration">Регистрация</string>
     <string name="name">Название</string>
+    <string name="OK">ОК</string>
+    <string name="input_nickname">Ввод Клички</string>
+    <string name="input_age">Ввод возраста</string>
+    <string name="input_weight">Ввод веса</string>
+    <string name="pet_reg">Регистрация питомца</string>
+    <string name="upload_photo">Загрузить фото</string>
+    <string name="right">Вперед</string>
+    <string name="left">Назад</string>
 </resources>
