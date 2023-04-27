@@ -5,6 +5,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -85,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 String email = textInputEmail.getEditText().getText().toString().trim();
                 String password = textInputPassword.getEditText().getText().toString().trim();
                 loginUser(email, password);
+
             }
 
             })
@@ -97,6 +99,11 @@ public class MainActivity extends AppCompatActivity {
 
         AlertDialog alert = dialog_login.create();
         alert.show();
+    }
+
+    private void register_petActivity() {
+        Intent register_pet = new Intent(this, Register_pet.class);
+        startActivity(register_pet);
     }
 
     private void loginUser(String email, String password) {
@@ -121,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
                                         String s = task.getResult().child("name").getValue().toString(); //получаем имя пользователя из бд
                                         Toast.makeText(MainActivity.this, "hello "+s,
                                                 Toast.LENGTH_SHORT).show();
+                                        register_petActivity();
                                     }
                                 }
                             });
