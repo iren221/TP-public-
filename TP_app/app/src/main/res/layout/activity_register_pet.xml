@@ -155,7 +155,7 @@
         app:srcCompat="@drawable/mask_group_1" />
 
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/btn_recommendations"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="130dp"

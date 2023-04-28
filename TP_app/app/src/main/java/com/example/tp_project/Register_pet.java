@@ -3,6 +3,7 @@ package com.example.tp_project;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatImageButton;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -39,6 +40,7 @@ public class Register_pet extends AppCompatActivity {
     FirebaseStorage storage;
     StorageReference storageRef;
     private Uri upload_Uri;
+    AppCompatImageButton btn_recommendations;
 
 
     @SuppressLint("MissingInflatedId")
@@ -55,12 +57,21 @@ public class Register_pet extends AppCompatActivity {
         pet_name = findViewById(R.id.pet_name);
         pet_age = findViewById(R.id.age_pet);
         pet_weight = findViewById(R.id.weight_pet);
+        btn_recommendations = findViewById(R.id.btn_recommendations);
 
 
         btn_download_photo_pet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 getImage();
+            }
+        });
+
+        btn_recommendations.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent recommend = new Intent(Register_pet.this, RecommendationsActivity.class);
+                startActivity(recommend);
             }
         });
 
