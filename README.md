@@ -1,8 +1,8 @@
 # TP-public-
-I am Ira 
+I am Christina
 Checking the connection
 
-I am Vova
+I am Igor
 Checking the connection
 
 ЭТО ФРОНТ!!
