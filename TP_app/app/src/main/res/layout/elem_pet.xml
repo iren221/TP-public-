@@ -30,32 +30,54 @@
             android:layout_weight="1"
             tools:srcCompat="@tools:sample/avatars" />
 
-
-        <TextView
-            android:id="@+id/text_pet_name"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
             android:layout_weight="1"
             android:gravity="center"
-            android:text=""
-            android:textColor="@color/white"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/text_pet_name9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text=""
-            android:textColor="@color/white"
-            android:textSize="30sp" />
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:id="@+id/text_pet_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/text_pet_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/text_pet_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
 
     </LinearLayout>
 
