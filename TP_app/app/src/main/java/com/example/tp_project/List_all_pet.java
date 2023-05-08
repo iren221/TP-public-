@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
+import android.content.Context;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -19,6 +19,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+
 import java.util.ArrayList;
 
 public class List_all_pet extends AppCompatActivity {
@@ -26,6 +27,7 @@ public class List_all_pet extends AppCompatActivity {
     private RecyclerView recyclerView;
     private AnimalAdapter animalAdapter;
     Button btn_add_pet;
+    private Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +37,7 @@ public class List_all_pet extends AppCompatActivity {
         btn_add_pet = findViewById(R.id.btn_add_pet);
         recyclerView = findViewById(R.id.re_all_pet);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        animalAdapter = new AnimalAdapter(animalList);
+        animalAdapter = new AnimalAdapter(animalList, context);
         recyclerView.setAdapter(animalAdapter);
 
         btn_add_pet.setOnClickListener(new View.OnClickListener() {

@@ -15,6 +15,9 @@
         android:theme="@style/Theme.TP_project"
         tools:targetApi="31">
         <activity
+            android:name=".AnimalDetails"
+            android:exported="false" />
+        <activity
             android:name=".List_all_pet"
             android:exported="false" />
         <activity

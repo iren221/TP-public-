@@ -1,23 +1,30 @@
 package com.example.tp_project;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
+import android.content.Context;
 import com.bumptech.glide.Glide;
+
 
 import java.util.ArrayList;
 
 public class AnimalAdapter extends RecyclerView.Adapter<AnimalAdapter.AnimalViewHolder> {
-    private ArrayList<Animal> animalList;
 
-    public AnimalAdapter(ArrayList<Animal> animalList) {
+    private ArrayList<Animal> animalList;
+    private Context context;
+
+    public AnimalAdapter(ArrayList<Animal> animalList, Context context) {
+
         this.animalList = animalList;
+        this.context = context;
     }
 
     @NonNull
@@ -31,6 +38,15 @@ public class AnimalAdapter extends RecyclerView.Adapter<AnimalAdapter.AnimalView
     public void onBindViewHolder(@NonNull AnimalViewHolder holder, int position) {
         Animal animal = animalList.get(position);
         holder.bind(animal);
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, AnimalDetails.class);
+                intent.putExtra("animal", animal);
+                context.startActivity(intent);
+            }
+        });
+
     }
 
     @Override
