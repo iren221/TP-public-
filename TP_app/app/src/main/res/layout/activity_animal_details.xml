@@ -50,4 +50,13 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/details_image" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:text="Button"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="319dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
