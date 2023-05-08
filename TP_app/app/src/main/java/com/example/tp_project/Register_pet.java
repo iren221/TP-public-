@@ -24,6 +24,8 @@ import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -49,7 +51,8 @@ public class Register_pet extends AppCompatActivity {
     private Intent data;
     private Uri imageUri;
     private Intent resultIntent;
-
+    FirebaseAuth auth = FirebaseAuth.getInstance();
+    FirebaseUser user = auth.getCurrentUser();
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -184,7 +187,8 @@ public class Register_pet extends AppCompatActivity {
                 Intent resultIntent = new Intent();
                 resultIntent.putExtra("animal", animal);
                 setResult(Activity.RESULT_OK, resultIntent);
-                finish();
+                Intent intent = new Intent(this, List_all_pet.class);
+                startActivity(intent);
             });
         }).addOnFailureListener(exception -> {
             // Обработка ошибки загрузки файла
@@ -218,8 +222,7 @@ public class Register_pet extends AppCompatActivity {
     }
 
     private void saveImageToFirebaseDatabase(String imageUrl) {
-        // Получаем уникальный идентификатор для нового элемента в базе данных
-        String key = mDatabase.push().getKey();
+        String uid = user.getUid(); //получаем id пользователя
         String name = data.getStringExtra("name");
         int age = data.getIntExtra("age", 0);
         float weight = data.getFloatExtra("weight", 0.0f);
@@ -230,8 +233,8 @@ public class Register_pet extends AppCompatActivity {
 
 
 
-        // Сохраняем новый объект CatDog в базе данных
-        mDatabase.child(key).setValue(animal);
+        // Сохраняем новый объект в базе данных
+        mDatabase.child(uid).setValue(animal);
 
         // Выводим сообщение об успешном сохранении
         Toast.makeText(getApplicationContext(), "Данные о животном успешно сохранены", Toast.LENGTH_SHORT).show();
@@ -239,11 +242,11 @@ public class Register_pet extends AppCompatActivity {
     private void saveAnimalToFirebase(Animal animal) {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference databaseRef = database.getReference("animals");
-
+        String uid = user.getUid(); //получаем id пользователя
         // Сохраняем данные животного в Firebase Database
-        String key = databaseRef.push().getKey();
-        Animal newAnimal = new Animal(key, animal.getName(), animal.getAge(), animal.getWeight(), animal.getImageUrl());
-        databaseRef.child(key).setValue(newAnimal);
+        String key = databaseRef.push().getKey(); // получаем ключ изображения
+        Animal newAnimal = new Animal(uid, animal.getName(), animal.getAge(), animal.getWeight(), animal.getImageUrl());
+        databaseRef.child(uid).child(key).setValue(newAnimal);
     }
 
 

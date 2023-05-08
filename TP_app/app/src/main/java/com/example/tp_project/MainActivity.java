@@ -105,6 +105,10 @@ public class MainActivity extends AppCompatActivity {
         Intent register_pet = new Intent(this, Register_pet.class);
         startActivity(register_pet);
     }
+    private void list_petActivity() {
+        Intent list_pet = new Intent(this, List_all_pet.class);
+        startActivity(list_pet);
+    }
 
     private void loginUser(String email, String password) {
         mAuth.signInWithEmailAndPassword(email, password)
@@ -128,7 +132,8 @@ public class MainActivity extends AppCompatActivity {
                                         String s = task.getResult().child("name").getValue().toString(); //получаем имя пользователя из бд
                                         Toast.makeText(MainActivity.this, "hello "+s,
                                                 Toast.LENGTH_SHORT).show();
-                                        register_petActivity();
+                                        list_petActivity();
+
                                     }
                                 }
                             });
