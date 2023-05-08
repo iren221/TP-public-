@@ -39,30 +39,41 @@ public class AnimalDetails extends AppCompatActivity {
         String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
         DatabaseReference myRef = FirebaseDatabase.getInstance().getReference().child("animals").child(uid).child(key);
-        myRef.addValueEventListener(new ValueEventListener() {
+        b1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                if (dataSnapshot.exists()) {
-                    Integer b1_state = dataSnapshot.child("b1").getValue(Integer.class); // получаем данные о состоянии кнопки b1
-                    if (b1_state != null) {
-                        if (b1_state == 0) {
-                            b1.setBackgroundColor(getResources().getColor(R.color.red));
-                        }
-                        else {
+            public void onClick(View view) {
+                myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        if (dataSnapshot.exists()) {
+                            Integer b1_state = dataSnapshot.child("b1").getValue(Integer.class); // получаем данные о состоянии кнопки b1
+                            if (b1_state != null) {
+                                if (b1_state == 0) {
+                                    b1.setBackgroundColor(getResources().getColor(R.color.green));
+                                    myRef.child("b1").setValue(1);
+                                }
+                                else {
+                                    b1.setBackgroundColor(getResources().getColor(R.color.red));
+                                    myRef.child("b1").setValue(0);
+                                }
+
+                            } else {
+                                myRef.child("b1").setValue(1);//если данных нет, кнопка красная по умолчанию
+                                b1.setBackgroundColor(getResources().getColor(R.color.green));
+                            }
+                        } else {
+                            myRef.child("b1").setValue(1); //если данных нет, кнопка красная по умолчанию
                             b1.setBackgroundColor(getResources().getColor(R.color.green));
                         }
-
-                    } else {
-                        myRef.setValue(0); //если данных нет, кнопка красная по умолчанию
                     }
-                } else {
-                    myRef.setValue(0); //если данных нет, кнопка красная по умолчанию
-                }
-            }
 
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                Log.w("getb1", "onCancelled", databaseError.toException());
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        Log.w("getb1", "onCancelled", databaseError.toException());
+                    }
+                });
+
+
             }
         });
 
