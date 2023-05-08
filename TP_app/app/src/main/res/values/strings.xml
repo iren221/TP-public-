@@ -17,5 +17,6 @@
     <string name="input_weight">Ввод веса</string>
     <string name="pet_reg">Регистрация питомца</string>
     <string name="upload_photo">Загрузить фото</string>
+    <string name="reg_pet">Добавить</string>
 
 </resources>
