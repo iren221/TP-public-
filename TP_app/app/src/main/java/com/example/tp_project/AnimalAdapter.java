@@ -47,12 +47,15 @@ public class AnimalAdapter extends RecyclerView.Adapter<AnimalAdapter.AnimalView
         public AnimalViewHolder(@NonNull View itemView) {
             super(itemView);
             nameTextView = itemView.findViewById(R.id.text_pet_name);
+            ageTextView = itemView.findViewById(R.id.text_pet_age);
+            weightTextView = itemView.findViewById(R.id.text_pet_weight);
             animalImageView = itemView.findViewById(R.id.image_photo_pet);
         }
 
         public void bind(Animal animal) {
             nameTextView.setText(animal.getName());
-
+            ageTextView.setText(String.valueOf(animal.getAge()));
+            weightTextView.setText(String.valueOf(animal.getWeight()));
             Glide.with(itemView.getContext()).load(animal.getImageUrl()).into(animalImageView);
         }
     }

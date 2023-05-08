@@ -245,7 +245,7 @@ public class Register_pet extends AppCompatActivity {
         String uid = user.getUid(); //получаем id пользователя
         // Сохраняем данные животного в Firebase Database
         String key = databaseRef.push().getKey(); // получаем ключ изображения
-        Animal newAnimal = new Animal(uid, animal.getName(), animal.getAge(), animal.getWeight(), animal.getImageUrl());
+        Animal newAnimal = new Animal(key, animal.getName(), animal.getAge(), animal.getWeight(), animal.getImageUrl());
         databaseRef.child(uid).child(key).setValue(newAnimal);
     }
 
