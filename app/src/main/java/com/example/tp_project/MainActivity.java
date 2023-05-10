@@ -4,7 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -18,8 +21,14 @@ import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
+
+    public String id_channel = "pet_channel";
+    public String name_channel = "pet_channel_name";
 
     private FirebaseAuth mAuth;
     Button btn_regist;
@@ -28,15 +37,31 @@ public class MainActivity extends AppCompatActivity {
     private TextInputLayout textInputName;
     private TextInputLayout textInputPassword;
 
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+
+    DatabaseReference myRef = database.getReference("test");
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.fragment_main);
 
         mAuth = FirebaseAuth.getInstance();
-        btn_regist = findViewById(R.id.btn_regist);
-        btn_login = findViewById(R.id.btn_login);
+        btn_regist = findViewById(R.id.button2);
+        btn_login = findViewById(R.id.button1);
+
+        NotificationChannel channel = null;
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            channel = new NotificationChannel(id_channel,
+                    name_channel,
+                    NotificationManager.IMPORTANCE_DEFAULT);
+            NotificationManager notificationManager = getSystemService(NotificationManager.class);
+            notificationManager.createNotificationChannel(channel);
+        }
+
 
         btn_regist.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
                 String email = textInputEmail.getEditText().getText().toString().trim();
                 String password = textInputPassword.getEditText().getText().toString().trim();
                 loginUser(email, password);
+
             }
 
             })
@@ -90,6 +116,15 @@ public class MainActivity extends AppCompatActivity {
         alert.show();
     }
 
+    private void register_petActivity() {
+        Intent register_pet = new Intent(this, Register_pet.class);
+        startActivity(register_pet);
+    }
+    private void list_petActivity() {
+        Intent list_pet = new Intent(this, List_all_pet.class);
+        startActivity(list_pet);
+    }
+
     private void loginUser(String email, String password) {
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -99,8 +134,25 @@ public class MainActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("login", "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Toast.makeText(MainActivity.this, "Authentication succesed.",
-                                    Toast.LENGTH_SHORT).show();
+
+                            myRef.child("users").child(user.getUid()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() { // функция считывающая данные из бд
+                                @Override
+                                public void onComplete(@NonNull Task<DataSnapshot> task) {
+                                    if (!task.isSuccessful()) {
+                                        Toast.makeText(MainActivity.this, "error",
+                                                Toast.LENGTH_SHORT).show();
+                                    }
+                                    else {
+
+                                        String s = task.getResult().child("name").getValue().toString(); //получаем имя пользователя из бд
+                                        Toast.makeText(MainActivity.this, "hello "+s,
+                                                Toast.LENGTH_SHORT).show();
+                                        list_petActivity();
+
+
+                                    }
+                                }
+                            });
 
                         } else {
                             // If sign in fails, display a message to the user.
@@ -133,7 +185,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(DialogInterface dialogInterface, int i) {
                 String email = textInputEmail.getEditText().getText().toString().trim();
                 String password = textInputPassword.getEditText().getText().toString().trim();
-                addUser(email, password);
+                String name = textInputName.getEditText().getText().toString().trim();
+                addUser(email, password, name);
             }
         })
 
@@ -147,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
         alert.show();
     }
 
-    private void addUser(String email, String password) {
+    private void addUser(String email, String password, String name) {
 
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -156,15 +209,17 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("signup", "createUserWithEmail:success");
-                            Toast.makeText(MainActivity.this, "Authentication succesed.",
+                            Toast.makeText(MainActivity.this, "Registration succesed.",
                                     Toast.LENGTH_SHORT).show();
                             FirebaseUser user = mAuth.getCurrentUser();
+                            myRef.child("users").child(user.getUid()).child("name").setValue(name); // добавляем в бд имя пользователя
+
 
                             //updateUI(user);
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("signup", "createUserWithEmail:failure", task.getException());
-                            Toast.makeText(MainActivity.this, "Authentication failed.",
+                            Toast.makeText(MainActivity.this, "Registration failed.",
                                     Toast.LENGTH_SHORT).show();
                             showRegisterWindow(); //если регистрация не удалась, заново открывается окно
                             //updateUI(null);

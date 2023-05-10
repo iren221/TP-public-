@@ -5,4 +5,18 @@
     <string name="name">Имя</string>
     <string name="email">Почта</string>
     <string name="password">Пароль</string>
+    <string name="download_photo">Загрузить фото</string>
+    <string name="name_pet">Введите кличку</string>
+    <string name="age">Введите возраст</string>
+    <string name="weight">Введите рост</string>
+    <string name="OK">OK</string>
+    <string name="log_in">Войти</string>
+    <string name="name1">App</string>
+    <string name="input_nickname">Ввод Клички</string>
+    <string name="input_age">Ввод возраста</string>
+    <string name="input_weight">Ввод веса</string>
+    <string name="pet_reg">Регистрация питомца</string>
+    <string name="upload_photo">Загрузить фото</string>
+    <string name="reg_pet">Добавить</string>
+
 </resources>
