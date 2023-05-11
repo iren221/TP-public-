@@ -8,7 +8,9 @@
     <string name="input_age">Ввод возраста</string>
     <string name="input_weight">Ввод веса</string>
     <string name="pet_reg">Регистрация питомца</string>
+    <string name="pets">ПИТОМЦЫ</string>
     <string name="upload_photo">Загрузить фото</string>
+    <string name="add_pet">Добавить</string>
     <string name="right">Вперед</string>
     <string name="left">Назад</string>
 </resources>

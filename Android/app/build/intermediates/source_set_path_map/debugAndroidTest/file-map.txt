@@ -1,0 +1,5 @@
+com.example.registration.test.app-androidTest-0 /Users/igortihonov/Desktop/Android/app/build/generated/res/resValues/androidTest/debug
+com.example.registration.test.app-androidTest-1 /Users/igortihonov/Desktop/Android/app/build/generated/res/rs/androidTest/debug
+com.example.registration.test.app-mergeDebugAndroidTestResources-2 /Users/igortihonov/Desktop/Android/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.registration.test.app-mergeDebugAndroidTestResources-3 /Users/igortihonov/Desktop/Android/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.registration.test.app-merged_res-4 /Users/igortihonov/Desktop/Android/app/build/intermediates/merged_res/debugAndroidTest
