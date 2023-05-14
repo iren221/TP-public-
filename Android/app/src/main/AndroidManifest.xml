@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Registration"
         tools:targetApi="31">
         <activity
+            android:name=".setting_up_notifications"
+            android:exported="false" />
+        <activity
             android:name=".pets"
             android:exported="false" />
         <activity

@@ -6,67 +6,129 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginEnd="110sp"
+        android:layout_marginBottom="765sp"
+        android:fontFamily="@font/nunito_medium"
+        android:text="@string/pets"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="410sp"
-        android:layout_height="650sp"
+        android:layout_height="760sp"
+        android:layout_marginTop="105sp"
+        android:layout_marginEnd="0sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/shape_rectangle2" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="410sp"
         android:layout_height="80sp"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="790sp"
+        android:layout_marginEnd="0sp"
+        android:layout_marginBottom="0sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/toolbar" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="10sp"
         android:backgroundTint="#F8C683"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/mask_group" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="10sp"
         android:backgroundTint="#F8C683"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/mask_group_1" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/imageButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="130dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="10sp"
         android:backgroundTint="#F8C683"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/mask_group_2" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/imageButton6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="10sp"
         android:backgroundTint="#F8C683"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/mask_group_3" />
 
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="75dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="165sp"
+        android:layout_marginTop="400sp"
+        android:layout_marginEnd="165sp"
+        android:layout_marginBottom="400sp"
+        android:backgroundTint="#C0C4D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_new_pet" />
 </androidx.constraintlayout.widget.ConstraintLayout>

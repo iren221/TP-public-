@@ -10,17 +10,32 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="OK">ОК</string>
+    <string name="add_pet">Добавить</string>
     <string name="app_name">Registration</string>
+    <string name="back">Назад</string>
+    <string name="bathing">купание</string>
+    <string name="combing">вычесывание</string>
+    <string name="eat">еда</string>
     <string name="input_age">Ввод возраста</string>
     <string name="input_nickname">Ввод Клички</string>
     <string name="input_weight">Ввод веса</string>
     <string name="left">Назад</string>
     <string name="log_in">Войти</string>
+    <string name="medications">лекарства</string>
     <string name="name">Название</string>
     <string name="pet_reg">Регистрация питомца</string>
+    <string name="pets">ПИТОМЦЫ</string>
     <string name="registration">Регистрация</string>
     <string name="right">Вперед</string>
+    <string name="setting_up_notifications">Настройка уведомлений</string>
+    <string name="teeth">Как лечить зубы</string>
+    <string name="time">время</string>
+    <string name="time1">7:00</string>
+    <string name="time2">22:00</string>
     <string name="upload_photo">Загрузить фото</string>
+    <string name="viewing_tips">Просмотр советов</string>
+    <string name="walk">прогулка</string>
+    <string name="water">вода</string>
     <style name="Theme.Registration" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

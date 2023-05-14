@@ -21,6 +21,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Registration" >
         <activity
+            android:name="com.example.registration.setting_up_notifications"
+            android:exported="false" />
+        <activity
             android:name="com.example.registration.pets"
             android:exported="false" />
         <activity

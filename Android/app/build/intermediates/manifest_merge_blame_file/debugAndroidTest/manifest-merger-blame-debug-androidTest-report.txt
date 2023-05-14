@@ -3,24 +3,24 @@
 3    package="com.example.registration.test" >
 4
 5    <uses-sdk
-5-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:5:5-74
+5-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:5:15-41
+6-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:5:15-41
 7        android:targetSdkVersion="33" />
-7-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:5:42-71
+7-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:11:5-15:74
+9-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:11:5-15:74
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:11:22-76
+10-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:14:22-52
+11-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:13:22-53
+12-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:13:22-53
 13        android:label="Tests for com.example.registration"
-13-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:15:22-72
+13-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:15:22-72
 14        android:targetPackage="com.example.registration" />
-14-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:12:22-70
+14-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:12:22-70
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.4.0] /Users/igortihonov/.gradle/caches/transforms-3/4f8164410b548de9f12398fd17346960/transformed/core-1.4.0/AndroidManifest.xml:24:5-72
@@ -40,12 +40,12 @@
 22    </queries>
 23
 24    <application
-24-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:7:5-9:19
+24-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="false" >
 27        <uses-library android:name="android.test.runner" />
-27-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:8:9-60
-27-->/Users/igortihonov/Desktop/Android/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12293576345592400155.xml:8:23-57
+27-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:8:9-60
+27-->/Users/igortihonov/Desktop/Android(1)/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15144594323333645264.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.4.0] /Users/igortihonov/.gradle/caches/transforms-3/4f8164410b548de9f12398fd17346960/transformed/core-1.4.0/AndroidManifest.xml:27:9-34:20
