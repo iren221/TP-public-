@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/layout_activity_setting_up_notifications.xml.flat",
+        "source": "com.example.registration.app-main-32:/layout/activity_setting_up_notifications.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_shape_rectangle.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/shape_rectangle.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_shape_rectangle3.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/shape_rectangle3.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_mediumitalic.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_mediumitalic.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_button_new_pet.png.flat",
+        "source": "com.example.registration.app-main-32:/drawable/button_new_pet.png"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.registration.app-main-32:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/layout_viewing_tips.xml.flat",
+        "source": "com.example.registration.app-main-32:/layout/viewing_tips.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_extralight.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_extralight.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_bold.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_bold.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_extrabolditalic.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_extrabolditalic.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_variablefont_wght.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_variablefont_wght.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_black.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_black.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_cat_change.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/cat_change.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_mask_group_2.png.flat",
+        "source": "com.example.registration.app-main-32:/drawable/mask_group_2.png"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_mask_group_3.png.flat",
+        "source": "com.example.registration.app-main-32:/drawable/mask_group_3.png"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_extrabold.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_extrabold.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/layout_activity_pets.xml.flat",
+        "source": "com.example.registration.app-main-32:/layout/activity_pets.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_italic.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_italic.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_mask_group.png.flat",
+        "source": "com.example.registration.app-main-32:/drawable/mask_group.png"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/layout_activity_main.xml.flat",
+        "source": "com.example.registration.app-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/xml_backup_rules.xml.flat",
+        "source": "com.example.registration.app-main-32:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/layout_fragment_main.xml.flat",
+        "source": "com.example.registration.app-main-32:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_lightitalic.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_lightitalic.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_italic_variablefont_wght.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_italic_variablefont_wght.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_logo.png.flat",
+        "source": "com.example.registration.app-main-32:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_shape_rectangle5.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/shape_rectangle5.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_text_edit.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/text_edit.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_semibolditalic.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_semibolditalic.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_gradient_background.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_shape_rectangle2.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/shape_rectangle2.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_toolbar.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/toolbar.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_extralightitalic.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_extralightitalic.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_shape_rectangle4.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/shape_rectangle4.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_bolditalic.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_bolditalic.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_light.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_light.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_semibold.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_semibold.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/layout_new_pet.xml.flat",
+        "source": "com.example.registration.app-main-32:/layout/new_pet.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/layout_register_window.xml.flat",
+        "source": "com.example.registration.app-main-32:/layout/register_window.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_blackitalic.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_blackitalic.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_regular.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_regular.ttf"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_mask_group_1.png.flat",
+        "source": "com.example.registration.app-main-32:/drawable/mask_group_1.png"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_button.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/button.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/drawable_button_app.xml.flat",
+        "source": "com.example.registration.app-main-32:/drawable/button_app.xml"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.registration.app-main-32:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.registration.app-merged_res-30:/font_nunito_medium.ttf.flat",
+        "source": "com.example.registration.app-main-32:/font/nunito_medium.ttf"
+    }
+]

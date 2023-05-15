@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.registration"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:5:5-29:19
+12        android:allowBackup="true"
+12-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /Users/igortihonov/.gradle/caches/transforms-3/0212d0c0c0b99c5d00c15a82a811f4d1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:8:9-54
+18        android:icon="@drawable/button"
+18-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:9:9-40
+19        android:label="@string/app_name"
+19-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:10:9-41
+20        android:supportsRtl="true"
+20-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Registration" >
+22-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:12:9-50
+23        <activity
+23-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:14:9-16:40
+24            android:name="com.example.registration.setting_up_notifications"
+24-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:15:13-53
+25            android:exported="false" />
+25-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:16:13-37
+26        <activity
+26-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:17:9-19:40
+27            android:name="com.example.registration.pets"
+27-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:18:13-33
+28            android:exported="false" />
+28-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:19:13-37
+29        <activity
+29-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:20:9-28:20
+30            android:name="com.example.registration.MainActivity"
+30-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:21:13-41
+31            android:exported="true" >
+31-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:22:13-36
+32            <intent-filter>
+32-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:24:17-69
+33-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:26:17-77
+35-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+41            android:authorities="com.example.registration.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/igortihonov/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/igortihonov/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/igortihonov/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>
