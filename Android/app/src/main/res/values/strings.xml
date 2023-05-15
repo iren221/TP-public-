@@ -22,19 +22,8 @@
     <string name="add_pet">Добавить</string>
     <string name="right">Вперед</string>
     <string name="left">Назад</string>
-<<<<<<< HEAD
-    <string name="pet">Питомцы</string>
-    <string name="edit">изменить</string>
-    <string name="delete">удалить</string>
-    <string name="name_pet">Кличка</string>
-    <string name="age">Возраст</string>
-    <string name="weight">Вес</string>
-    <string name="notice">настроить уведомления</string>
-    <string name="back">назад</string>
-=======
     <string name="time1">7:00</string>
     <string name="time2">22:00</string>
     <string name="viewing_tips">Просмотр советов</string>
     <string name="teeth">Как лечить зубы</string>
->>>>>>> 7b3c872539d63d882f5317ebb690e751e485eb5f
 </resources>
