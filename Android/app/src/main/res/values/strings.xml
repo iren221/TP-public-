@@ -33,4 +33,6 @@
     <string name="age">Возраст</string>
     <string name="weight">Вес</string>
     <string name="notice">настроить уведомления</string>
+    <string name="name_pets">Имя</string>
+
 </resources>
