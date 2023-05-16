@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/igortihonov/.gradle/caches/transforms-3/6acbca7b40f0438e8e77ed68bb5757c6/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/igortihonov/.gradle/caches/transforms-3/0ff7d7f73dffa7d84bec5f5c083e5d80/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/igortihonov/.gradle/caches/transforms-3/116430c231f652ec6cb468c7433d967b/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
@@ -46,27 +46,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/igortihonov/.gradl
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/4a128805ae54552b7183634231e39ff5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/ae4109ec1e873f2074e4c3a60211a759/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/igortihonov/.gradle/caches/transforms-3/73f130ba62a38ea2b5c3476f7af43454/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:1-31:12
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:5:5-29:19
+ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:5:5-29:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/igortihonov/.gradle/caches/transforms-3/6acbca7b40f0438e8e77ed68bb5757c6/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/igortihonov/.gradle/caches/transforms-3/6acbca7b40f0438e8e77ed68bb5757c6/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/igortihonov/.gradle/caches/transforms-3/0ff7d7f73dffa7d84bec5f5c083e5d80/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
@@ -84,53 +84,53 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/igortihonov/.gradle/
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/igortihonov/.gradle/caches/transforms-3/0212d0c0c0b99c5d00c15a82a811f4d1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:10:9-41
 	android:fullBackupContent
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:8:9-54
 	tools:targetApi
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:13:9-29
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:13:9-29
 	android:icon
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:9:9-40
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:9:9-40
 	android:allowBackup
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:12:9-50
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:12:9-50
 	android:dataExtractionRules
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:7:9-65
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:7:9-65
 activity#com.example.registration.setting_up_notifications
-ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:14:9-16:40
+ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:14:9-16:40
 	android:exported
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:16:13-37
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:15:13-53
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:15:13-53
 activity#com.example.registration.pets
-ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:17:9-19:40
+ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:17:9-19:40
 	android:exported
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:19:13-37
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:18:13-33
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:18:13-33
 activity#com.example.registration.MainActivity
-ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:20:9-28:20
+ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:20:9-28:20
 	android:exported
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:22:13-36
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:21:13-41
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:21:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:26:27-74
 uses-sdk
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.5.0] /Users/igortihonov/.gradle/caches/transforms-3/6acbca7b40f0438e8e77ed68bb5757c6/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.5.0] /Users/igortihonov/.gradle/caches/transforms-3/6acbca7b40f0438e8e77ed68bb5757c6/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/igortihonov/.gradle/caches/transforms-3/0ff7d7f73dffa7d84bec5f5c083e5d80/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
@@ -215,16 +215,16 @@ MERGED from [androidx.print:print:1.0.0] /Users/igortihonov/.gradle/caches/trans
 MERGED from [androidx.print:print:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/ae4109ec1e873f2074e4c3a60211a759/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/igortihonov/.gradle/caches/transforms-3/73f130ba62a38ea2b5c3476f7af43454/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/igortihonov/.gradle/caches/transforms-3/73f130ba62a38ea2b5c3476f7af43454/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
-INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
-		ADDED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/igortihonov/.gradle/caches/transforms-3/98f686da2fce73ff8e48ca6a893a34a2/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/igortihonov/.gradle/caches/transforms-3/087e3e4f119bd3d4d28bb978bd0efd9b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20

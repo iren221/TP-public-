@@ -6,58 +6,58 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+8-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml
+9-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:5:5-29:19
+11-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:5:5-29:19
 12        android:allowBackup="true"
-12-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:6:9-35
+12-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.7.0] /Users/igortihonov/.gradle/caches/transforms-3/0212d0c0c0b99c5d00c15a82a811f4d1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:7:9-65
+14-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:7:9-65
 15        android:debuggable="true"
 16        android:extractNativeLibs="false"
 17        android:fullBackupContent="@xml/backup_rules"
-17-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:8:9-54
+17-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:8:9-54
 18        android:icon="@drawable/button"
-18-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:9:9-40
+18-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:9:9-40
 19        android:label="@string/app_name"
-19-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:10:9-41
+19-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:10:9-41
 20        android:supportsRtl="true"
-20-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:11:9-35
+20-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:11:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.Registration" >
-22-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:12:9-50
+22-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:12:9-50
 23        <activity
-23-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:14:9-16:40
+23-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:14:9-16:40
 24            android:name="com.example.registration.setting_up_notifications"
-24-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:15:13-53
+24-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:15:13-53
 25            android:exported="false" />
-25-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:16:13-37
+25-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:16:13-37
 26        <activity
-26-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:17:9-19:40
+26-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:17:9-19:40
 27            android:name="com.example.registration.pets"
-27-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:18:13-33
+27-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:18:13-33
 28            android:exported="false" />
-28-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:19:13-37
+28-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:19:13-37
 29        <activity
-29-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:20:9-28:20
+29-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:20:9-28:20
 30            android:name="com.example.registration.MainActivity"
-30-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:21:13-41
+30-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:21:13-41
 31            android:exported="true" >
-31-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:22:13-36
+31-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:22:13-36
 32            <intent-filter>
-32-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:23:13-27:29
+32-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:23:13-27:29
 33                <action android:name="android.intent.action.MAIN" />
-33-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:24:17-69
-33-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:24:25-66
+33-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:24:17-69
+33-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:24:25-66
 34
 35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:26:17-77
-35-->/Users/igortihonov/Desktop/Android(1)/app/src/main/AndroidManifest.xml:26:27-74
+35-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:26:17-77
+35-->/Users/igortihonov/front2/Android/app/src/main/AndroidManifest.xml:26:27-74
 36            </intent-filter>
 37        </activity>
 38
