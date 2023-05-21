@@ -12,6 +12,10 @@
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/shape_rectangle4.xml"
     },
     {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/drawable_checkbox_background.xml.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/checkbox_background.xml"
+    },
+    {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
@@ -44,24 +48,24 @@
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/notes.xml"
     },
     {
-        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/font_nunito_extrabold.ttf.flat",
-        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/font/nunito_extrabold.ttf"
-    },
-    {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/drawable_m1.png.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/m1.png"
+    },
+    {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/font_nunito_extrabold.ttf.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/font/nunito_extrabold.ttf"
     },
     {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/font_nunito_extralightitalic.ttf.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/font/nunito_extralightitalic.ttf"
     },
     {
-        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/font_nunito_bolditalic.ttf.flat",
-        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/font/nunito_bolditalic.ttf"
-    },
-    {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/font_nunito_regular.ttf.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/font/nunito_regular.ttf"
+    },
+    {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/font_nunito_bolditalic.ttf.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/font/nunito_bolditalic.ttf"
     },
     {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -82,6 +86,10 @@
     {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/xml_data_extraction_rules.xml.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/layout_setting_up_notifications_ira.xml.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/layout/setting_up_notifications_ira.xml"
     },
     {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/drawable_m5.png.flat",
@@ -184,12 +192,20 @@
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/xml/checkbox_round.xml"
     },
     {
+        "merged": "com.example.registration.app-merged_res-30:/layout_setting_up_notifications_ira.xml.flat",
+        "source": "com.example.registration.app-main-32:/layout/setting_up_notifications_ira.xml"
+    },
+    {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/font_nunito_italic_variablefont_wght.ttf.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/font/nunito_italic_variablefont_wght.ttf"
     },
     {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/layout_register_window_ira.xml.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/layout/register_window_ira.xml"
     },
     {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/font_nunito_extralight.ttf.flat",
@@ -202,6 +218,14 @@
     {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/drawable_toolbar.xml.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/toolbar.xml"
+    },
+    {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/drawable_checkbox_unselected.xml.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/checkbox_unselected.xml"
+    },
+    {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/layout_entrance_ira.xml.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/layout/entrance_ira.xml"
     },
     {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -244,10 +268,6 @@
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/shape_rectangle.xml"
     },
     {
-        "merged": "com.example.registration.app-merged_res-30:/xml_checkbox_round.xml.flat",
-        "source": "com.example.registration.app-main-32:/xml/checkbox_round.xml"
-    },
-    {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/layout_activity_main.xml.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/layout/activity_main.xml"
     },
@@ -268,15 +288,23 @@
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/font/nunito_blackitalic.ttf"
     },
     {
-        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/drawable_m4.png.flat",
-        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/m4.png"
-    },
-    {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/layout_new_pet.xml.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/layout/new_pet.xml"
     },
     {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/drawable_m4.png.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/m4.png"
+    },
+    {
         "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/font_nunito_italic.ttf.flat",
         "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/font/nunito_italic.ttf"
+    },
+    {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/layout_pet_profile_ira.xml.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/layout/pet_profile_ira.xml"
+    },
+    {
+        "merged": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-merged_res-30:/drawable_checkbox_selector.xml.flat",
+        "source": "/Users/igortihonov/.gradle/daemon/7.5/com.example.registration.app-main-32:/drawable/checkbox_selector.xml"
     }
 ]

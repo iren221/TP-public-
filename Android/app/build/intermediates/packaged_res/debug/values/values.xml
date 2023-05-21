@@ -29,6 +29,7 @@
     <string name="medications">лекарства</string>
     <string name="name">Название</string>
     <string name="name_pet">Кличка</string>
+    <string name="name_pets">Имя</string>
     <string name="notice">настроить уведомления</string>
     <string name="pet">Питомцы</string>
     <string name="pet_reg">Регистрация питомца</string>

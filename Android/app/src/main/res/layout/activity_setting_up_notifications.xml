@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background">
 
-    <!--Только поменял содержимое кнопки. Может это неправильно-->
+    <!--Только поменял содержимо3е кнопки. Может это неправильно-->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
